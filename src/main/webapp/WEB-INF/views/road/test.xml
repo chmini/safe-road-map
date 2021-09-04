@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml
+	xmlns="http://www.opengis.net/kml/2.2"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tmap="http://tlp.tmap.co.kr/"
+	xsi:schemaLocation="http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd">
+	<Document>
+		<Style id="lineStyle">
+			<LineStyle>
+				<color>7f0000ff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<Style id="startPointStyle">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon>
+					<w>30</w>
+					<h>39</h>
+					<x>-15</x>
+					<y>-39</y>
+					<href>http://topopen.tmap.co.kr/imgs/start.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="endPointStyle">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon>
+					<w>30</w>
+					<h>39</h>
+					<x>-15</x>
+					<y>-39</y>
+					<href>http://topopen.tmap.co.kr/imgs/arrival.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="passPointStyle">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon>
+					<w>30</w>
+					<h>39</h>
+					<x>-15</x>
+					<y>-39</y>
+					<href>http://topopen.tmap.co.kr/imgs/pass.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="pointStyle">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon>
+					<w>14</w>
+					<h>14</h>
+					<x>-7</x>
+					<y>-7</y>
+					<href>http://topopen.tmap.co.kr/imgs/point.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+		<Style id="passlineStyle">
+			<LineStyle>
+				<color>7f00ff00</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
+		<tmap:totalDistance>1187</tmap:totalDistance>
+		<tmap:totalTime>966</tmap:totalTime>
+		<Placemark>
+			<tmap:index>0</tmap:index>
+			<tmap:pointIndex>0</tmap:pointIndex>
+			<name><![CDATA[]]>
+			</name>
+			<description><![CDATA[공항대로 을 따라 34m 이동]]></description>
+			<styleUrl>#startPointStyle</styleUrl>
+			<tmap:direction />
+			<tmap:nearPoiName><![CDATA[]]>
+			</tmap:nearPoiName>
+			<tmap:nearPoiX>0.0</tmap:nearPoiX>
+			<tmap:nearPoiY>0.0</tmap:nearPoiY>
+			<tmap:intersectionName><![CDATA[]]>
+			</tmap:intersectionName>
+			<tmap:nodeType>POINT</tmap:nodeType>
+			<tmap:turnType>200</tmap:turnType>
+			<tmap:pointType>SP</tmap:pointType>
+			<tmap:facilityType>11</tmap:facilityType>
+			<tmap:facilityName />
+			<Point>
+				<coordinates>14119503,4517284 </coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<tmap:index>1</tmap:index>
+			<tmap:lineIndex>0</tmap:lineIndex>
+			<name><![CDATA[공항대로]]></name>
+			<description><![CDATA[공항대로, 34m]]></description>
+			<styleUrl>#lineStyle</styleUrl>
+			<tmap:nodeType>LINE</tmap:nodeType>
+			<tmap:distance>34</tmap:distance>
+			<tmap:time>25</tmap:time>
+			<tmap:roadType>21</tmap:roadType>
+			<tmap:categoryRoadType>0</tmap:categoryRoadType>
+			<tmap:facilityType>11</tmap:facilityType>
+			<tmap:facilityName />
+			<LineString>
+				<coordinates>14119503,4517284 14119517,4517283 14119541,4517299
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<tmap:index>2</tmap:index>
+			<tmap:pointIndex>1</tmap:pointIndex>
+			<name><![CDATA[이천이프라자]]></name>
+			<description><![CDATA[이천이프라자 에서 우측 횡단보도 후 17m 이동 ]]></description>
+			<styleUrl>#pointStyle</styleUrl>
+			<tmap:direction />
+			<tmap:nearPoiName><![CDATA[이천이프라자]]></tmap:nearPoiName>
+			<tmap:nearPoiX>0.0</tmap:nearPoiX>
+			<tmap:nearPoiY>0.0</tmap:nearPoiY>
+			<tmap:intersectionName><![CDATA[]]>
+			</tmap:intersectionName>
+			<tmap:nodeType>POINT</tmap:nodeType>
+			<tmap:turnType>213</tmap:turnType>
+			<tmap:pointType>GP</tmap:pointType>
+			<tmap:facilityType>15</tmap:facilityType>
+			<tmap:facilityName />
+			<Point>
+				<coordinates>14119541,4517299 </coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<tmap:index>3</tmap:index>
+			<tmap:lineIndex>1</tmap:lineIndex>
+			<name><![CDATA[]]>
+			</name>
+			<description><![CDATA[, 17m]]></description>
+			<styleUrl>#lineStyle</styleUrl>
+			<tmap:nodeType>LINE</tmap:nodeType>
+			<tmap:distance>17</tmap:distance>
+			<tmap:time>41</tmap:time>
+			<tmap:roadType>21</tmap:roadType>
+			<tmap:categoryRoadType>0</tmap:categoryRoadType>
+			<tmap:facilityType>15</tmap:facilityType>
+			<tmap:facilityName />
+			<LineString>
+				<coordinates>14119541,4517299 14119551,4517281 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<tmap:index>4</tmap:index>
+			<tmap:pointIndex>2</tmap:pointIndex>
+			<name><![CDATA[]]>
+			</name>
+			<description><![CDATA[직진 후 8m 이동 ]]></description>
+			<styleUrl>#pointStyle</styleUrl>
+			<tmap:direction />
+			<tmap:nearPoiName><![CDATA[]]>
+			</tmap:nearPoiName>
+			<tmap:nearPoiX>0.0</tmap:nearPoiX>
+			<tmap:nearPoiY>0.0</tmap:nearPoiY>
+			<tmap:intersectionName><![CDATA[]]>
+			</tmap:intersectionName>
+			<tmap:nodeType>POINT</tmap:nodeType>
+			<tmap:turnType>11</tmap:turnType>
+			<tmap:pointType>GP</tmap:pointType>
+			<tmap:facilityType>11</tmap:facilityType>
+			<tmap:facilityName />
+			<Point>
+				<coordinates>14119551,4517281 </coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<tmap:index>5</tmap:index>
+			<tmap:lineIndex>2</tmap:lineIndex>
+			<name><![CDATA[]]>
+			</name>
+			<description><![CDATA[, 8m]]></description>
+			<styleUrl>#lineStyle</styleUrl>
+			<tmap:nodeType>LINE</tmap:nodeType>
+			<tmap:distance>8</tmap:distance>
+			<tmap:time>6</tmap:time>
+			<tmap:roadType>21</tmap:roadType>
+			<tmap:categoryRoadType>0</tmap:categoryRoadType>
+			<tmap:facilityType>11</tmap:facilityType>
+			<tmap:facilityName />
+			<LineString>
+				<coordinates>14119551,4517281 14119553,4517278 14119549,4517272
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<tmap:index>6</tmap:index>
+			<tmap:pointIndex>3</tmap:pointIndex>
+			<name><![CDATA[]]>
+			</name>
+			<description><![CDATA[횡단보도 후 30m 이동 ]]></description>
+			<styleUrl>#pointStyle</styleUrl>
+			<tmap:direction />
+			<tmap:nearPoiName><![CDATA[]]>
+			</tmap:nearPoiName>
+			<tmap:nearPoiX>0.0</tmap:nearPoiX>
+			<tmap:nearPoiY>0.0</tmap:nearPoiY>
+			<tmap:intersectionName><![CDATA[]]>
+			</tmap:intersectionName>
+			<tmap:nodeType>POINT</tmap:nodeType>
+			<tmap:turnType>211</tmap:turnType>
+			<tmap:pointType>GP</tmap:pointType>
+			<tmap:facilityType>15</tmap:facilityType>
+			<tmap:facilityName />
+			<Point>
+				<coordinates>14119549,4517272 </coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<tmap:index>7</tmap:index>
+			<tmap:lineIndex>3</tmap:lineIndex>
+			<name><![CDATA[]]>
+			</name>
+			<description><![CDATA[, 30m]]></description>
+			<styleUrl>#lineStyle</styleUrl>
+			<tmap:nodeType>LINE</tmap:nodeType>
+			<tmap:distance>30</tmap:distance>
+			<tmap:time>50</tmap:time>
+			<tmap:roadType>21</tmap:roadType>
+			<tmap:categoryRoadType>0</tmap:categoryRoadType>
+			<tmap:facilityType>15</tmap:facilityType>
+			<tmap:facilityName />
+			<LineString>
+				<coordinates>14119549,4517272 14119539,4517236 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<tmap:index>8</tmap:index>
+			<tmap:pointIndex>4</tmap:pointIndex>
+			<name><![CDATA[]]>
+			</name>
+			<description><![CDATA[직진 후 13m 이동 ]]></description>
+			<styleUrl>#pointStyle</styleUrl>
+			<tmap:direction />
+			<tmap:nearPoiName><![CDATA[]]>
+			</tmap:nearPoiName>
+			<tmap:nearPoiX>0.0</tmap:nearPoiX>
+			<tmap:nearPoiY>0.0</tmap:nearPoiY>
+			<tmap:intersectionName><![CDATA[]]>
+			</tmap:intersectionName>
+			<tmap:nodeType>POINT</tmap:nodeType>
+			<tmap:turnType>11</tmap:turnType>
+			<tmap:pointType>GP</tmap:pointType>
+			<tmap:facilityType>11</tmap:facilityType>
+			<tmap:facilityName />
+			<Point>
+				<coordinates>14119539,4517236 </coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<tmap:index>9</tmap:index>
+			<tmap:lineIndex>4</tmap:lineIndex>
+			<name><![CDATA[]]>
+			</name>
+			<description><![CDATA[, 13m]]></description>
+			<styleUrl>#lineStyle</styleUrl>
+			<tmap:nodeType>LINE</tmap:nodeType>
+			<tmap:distance>13</tmap:distance>
+			<tmap:time>10</tmap:time>
+			<tmap:roadType>21</tmap:roadType>
+			<tmap:categoryRoadType>0</tmap:categoryRoadType>
+			<tmap:facilityType>11</tmap:facilityType>
+			<tmap:facilityName />
+			<LineString>
+				<coordinates>14119539,4517236 14119540,4517225 14119535,4517220
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<tmap:index>10</tmap:index>
+			<tmap:pointIndex>5</tmap:pointIndex>
+			<name><![CDATA[]]>
+			</name>
+			<description><![CDATA[횡단보도 후 보행자도로 을 따라 17m 이동 ]]></description>
+			<styleUrl>#pointStyle</styleUrl>
+			<tmap:direction />
+			<tmap:nearPoiName><![CDATA[]]>
+			</tmap:nearPoiName>
+			<tmap:nearPoiX>0.0</tmap:nearPoiX>
+			<tmap:nearPoiY>0.0</tmap:nearPoiY>
+			<tmap:intersectionName><![CDATA[]]>
+			</tmap:intersectionName>
+			<tmap:nodeType>POINT</tmap:nodeType>
+			<tmap:turnType>211</tmap:turnType>
+			<tmap:pointType>GP</tmap:pointType>
+			<tmap:facilityType>15</tmap:facilityType>
+			<tmap:facilityName />
+			<Point>
+				<coordinates>14119535,4517220 </coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<tmap:index>11</tmap:index>
+			<tmap:lineIndex>5</tmap:lineIndex>
+			<name><![CDATA[보행자도로]]></name>
+			<description><![CDATA[보행자도로, 17m]]></description>
+			<styleUrl>#lineStyle</styleUrl>
+			<tmap:nodeType>LINE</tmap:nodeType>
+			<tmap:distance>17</tmap:distance>
+			<tmap:time>41</tmap:time>
+			<tmap:roadType>21</tmap:roadType>
+			<tmap:categoryRoadType>0</tmap:categoryRoadType>
+			<tmap:facilityType>15</tmap:facilityType>
+			<tmap:facilityName />
+			<LineString>
+				<coordinates>14119535,4517220 14119517,4517209 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<tmap:index>12</tmap:index>
+			<tmap:pointIndex>6</tmap:pointIndex>
+			<name><![CDATA[라임치과의원]]></name>
+			<description><![CDATA[라임치과의원 에서 좌회전 후 강서로 을 따라 645m 이동 ]]></description>
+			<styleUrl>#pointStyle</styleUrl>
+			<tmap:direction />
+			<tmap:nearPoiName><![CDATA[라임치과의원]]></tmap:nearPoiName>
+			<tmap:nearPoiX>0.0</tmap:nearPoiX>
+			<tmap:nearPoiY>0.0</tmap:nearPoiY>
+			<tmap:intersectionName><![CDATA[발산역]]></tmap:intersectionName>
+			<tmap:nodeType>POINT</tmap:nodeType>
+			<tmap:turnType>12</tmap:turnType>
+			<tmap:pointType>GP</tmap:pointType>
+			<tmap:facilityType>11</tmap:facilityType>
+			<tmap:facilityName />
+			<Point>
+				<coordinates>14119517,4517209 </coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<tmap:index>13</tmap:index>
+			<tmap:lineIndex>6</tmap:lineIndex>
+			<name><![CDATA[강서로]]></name>
+			<description><![CDATA[강서로, 645m]]></description>
+			<styleUrl>#lineStyle</styleUrl>
+			<tmap:nodeType>LINE</tmap:nodeType>
+			<tmap:distance>645</tmap:distance>
+			<tmap:time>461</tmap:time>
+			<tmap:roadType>21</tmap:roadType>
+			<tmap:categoryRoadType>0</tmap:categoryRoadType>
+			<tmap:facilityType>11</tmap:facilityType>
+			<tmap:facilityName />
+			<LineString>
+				<coordinates>14119517,4517209 14119529,4517189 14119532,4517185
+					14119526,4517165 14119524,4517160 14119522,4517155 14119505,4517088
+					14119481,4516992 14119478,4516980 14119477,4516976 14119476,4516970
+					14119475,4516965 14119469,4516941 14119442,4516835 14119437,4516814
+					14119434,4516802 14119433,4516798 14119432,4516794 14119420,4516747
+					14119414,4516725 14119411,4516711 14119398,4516660 14119394,4516652
+					14119392,4516648 14119364,4516541 14119366,4516537 14119367,4516536
+					14119346,4516455 14119341,4516436 14119339,4516428 14119335,4516427
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<tmap:index>14</tmap:index>
+			<tmap:pointIndex>7</tmap:pointIndex>
+			<name><![CDATA[파리바게뜨 발산중앙점]]></name>
+			<description><![CDATA[파리바게뜨 발산중앙점 에서 횡단보도 후 보행자도로 을 따라 13m 이동 ]]></description>
+			<styleUrl>#pointStyle</styleUrl>
+			<tmap:direction />
+			<tmap:nearPoiName><![CDATA[파리바게뜨 발산중앙점]]></tmap:nearPoiName>
+			<tmap:nearPoiX>0.0</tmap:nearPoiX>
+			<tmap:nearPoiY>0.0</tmap:nearPoiY>
+			<tmap:intersectionName><![CDATA[명덕고교입구]]></tmap:intersectionName>
+			<tmap:nodeType>POINT</tmap:nodeType>
+			<tmap:turnType>211</tmap:turnType>
+			<tmap:pointType>GP</tmap:pointType>
+			<tmap:facilityType>15</tmap:facilityType>
+			<tmap:facilityName />
+			<Point>
+				<coordinates>14119335,4516427 </coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<tmap:index>15</tmap:index>
+			<tmap:lineIndex>7</tmap:lineIndex>
+			<name><![CDATA[보행자도로]]></name>
+			<description><![CDATA[보행자도로, 13m]]></description>
+			<styleUrl>#lineStyle</styleUrl>
+			<tmap:nodeType>LINE</tmap:nodeType>
+			<tmap:distance>13</tmap:distance>
+			<tmap:time>39</tmap:time>
+			<tmap:roadType>21</tmap:roadType>
+			<tmap:categoryRoadType>0</tmap:categoryRoadType>
+			<tmap:facilityType>15</tmap:facilityType>
+			<tmap:facilityName />
+			<LineString>
+				<coordinates>14119335,4516427 14119334,4516411 </coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<tmap:index>16</tmap:index>
+			<tmap:pointIndex>8</tmap:pointIndex>
+			<name><![CDATA[미즈정문약국]]></name>
+			<description><![CDATA[미즈정문약국 에서 직진 후 강서로 을 따라 410m 이동 ]]></description>
+			<styleUrl>#pointStyle</styleUrl>
+			<tmap:direction />
+			<tmap:nearPoiName><![CDATA[미즈정문약국]]></tmap:nearPoiName>
+			<tmap:nearPoiX>0.0</tmap:nearPoiX>
+			<tmap:nearPoiY>0.0</tmap:nearPoiY>
+			<tmap:intersectionName><![CDATA[]]>
+			</tmap:intersectionName>
+			<tmap:nodeType>POINT</tmap:nodeType>
+			<tmap:turnType>11</tmap:turnType>
+			<tmap:pointType>GP</tmap:pointType>
+			<tmap:facilityType>11</tmap:facilityType>
+			<tmap:facilityName />
+			<Point>
+				<coordinates>14119334,4516411 </coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<tmap:index>17</tmap:index>
+			<tmap:lineIndex>8</tmap:lineIndex>
+			<name><![CDATA[강서로]]></name>
+			<description><![CDATA[강서로, 410m]]></description>
+			<styleUrl>#lineStyle</styleUrl>
+			<tmap:nodeType>LINE</tmap:nodeType>
+			<tmap:distance>410</tmap:distance>
+			<tmap:time>293</tmap:time>
+			<tmap:roadType>21</tmap:roadType>
+			<tmap:categoryRoadType>0</tmap:categoryRoadType>
+			<tmap:facilityType>11</tmap:facilityType>
+			<tmap:facilityName />
+			<LineString>
+				<coordinates>14119334,4516411 14119336,4516410 14119336,4516402
+					14119335,4516162 14119335,4516146 14119334,4516068 14119335,4516048
+					14119334,4515988 14119333,4515975 14119333,4515961 14119333,4515894
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<tmap:index>18</tmap:index>
+			<tmap:pointIndex>9</tmap:pointIndex>
+			<name><![CDATA[도착지]]></name>
+			<description><![CDATA[도착]]></description>
+			<styleUrl>#endPointStyle</styleUrl>
+			<tmap:direction />
+			<tmap:nearPoiName><![CDATA[도착지]]></tmap:nearPoiName>
+			<tmap:nearPoiX>0.0</tmap:nearPoiX>
+			<tmap:nearPoiY>0.0</tmap:nearPoiY>
+			<tmap:intersectionName><![CDATA[우장산역4번출구]]></tmap:intersectionName>
+			<tmap:nodeType>POINT</tmap:nodeType>
+			<tmap:turnType>201</tmap:turnType>
+			<tmap:pointType>EP</tmap:pointType>
+			<tmap:facilityType />
+			<tmap:facilityName />
+			<Point>
+				<coordinates>14119333,4515894 </coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</kml>

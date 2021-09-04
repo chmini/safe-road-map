@@ -1,0 +1,562 @@
+@charset "UTF-8";
+
+Body {
+	overflow: hidden;
+}
+
+/* 
+ * div class SideNav 
+ */
+ 
+.SideNav {
+	display: none;
+	height: 100%;
+	width: 300px;
+	position: fixed;
+	z-index: 4;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	overflow-x: hidden;
+	padding-top: 60px;
+	box-shadow: 5px 5px 5px 3000px rgba(0,0,0,0.4);
+}
+
+.LogoImg {
+    float: left;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.LogoImg h1{
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 40px;
+}
+
+.SideNav button {
+	position: absolute;
+    top: 30px;
+    right: 40px;
+    width: 24px;
+    height: 24px;
+    border: 0px;
+    outline: none;
+    background: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.SideNavMenu {
+	width: auto;
+	padding: 35px 30px 0 30px;
+}
+
+.SideNavMenu ul {
+	list-style-type: none;
+	font-size: 18px;
+}
+
+.SideNavMenu li {
+	padding: 5px;
+}
+
+.SideNavMenu i {
+	margin: 0 10px 0 0;
+}
+
+.SideNavMenu a{
+	text-decoration: none;
+	color: #000;
+}
+
+.SideNavMenu a:hover{
+	text-decoration: underline;
+	color: #000;
+}
+
+/* 
+ * div class SearchBox
+ */
+.SearchBox {
+	display: none;
+	width: 0px;
+	height: 100%;	
+	position: fixed;
+	z-index: 3;
+	background-color: #fff;
+	top: 0;
+	left: 0;
+}
+ 
+.SearchBox.ACTIVE {
+	display: block;
+	width: 385px;
+}
+
+/* div class SearchBox > Header */
+.Header {
+	display: table;
+	width: inherit;
+	background-color: #3396ff;
+}
+
+/* div class SearchBox > Header > Title */
+.Title {
+	overflow: hidden;
+	height: auto;
+}
+
+.Title .Menu {
+	font-size: 23px;
+	float: left;
+	padding: 20px;
+	color: #fff;
+}
+
+.Title .Logo {
+	font-family: 'East Sea Dokdo', cursive;
+	font-size: 30px;
+	float: left;
+	padding: 20px 20px 20px 0;
+	color: #fff;
+}
+
+/* div class SearchBox > Header > SearchBar */
+.SearchBar {
+	overflow: hidden;
+	height: auto;
+	background-color: #fff;
+	margin: 0 20px 10px 20px;
+	display: table;
+	border-radius: 3px;
+	box-shadow: 0 2px 1px 0 rgba(0,0,0,.15);
+}
+
+.SearchBar div {
+	display: table-cell;
+	vertical-align: middle; 
+}
+
+.SearchLine {
+	width: 275px;
+	height: 30px;
+	padding: 6px 10px 5px 15px;
+	font-size: 16px;
+	border: 0px;
+	outline: none;
+	float: left;
+}
+
+.SearchLine::placeholder {	
+	font-size: 16px;
+	color: #999;
+	padding: 5px 0 0 0;
+}
+
+.SearchBtn {
+	float: right;
+	border: 0px;
+	background: #fff;
+	color: #999;
+	margin: 0 5px 0 10px;
+	font-size: 18px;
+	outline: none;
+	cursor: pointer;
+}
+
+.SearchBtn:hover {
+	color: #5f5f5f;
+}
+
+/* div class SearchBox > Header > Menu */
+.Menu {
+	overflow: hidden;
+	height: auto;
+	padding: 0 20px 10px 20px;
+}
+
+.Menu table {
+	width: 100%;
+}
+
+.Menu td {
+	width: 20%;
+	text-align: center;
+}
+
+.Btn {
+	font-size: 14px;
+	overflow: hidden;
+	padding: 7px 10px 7px 10px;
+	border: 0;
+	outline: none;
+	background-color: #3396ff;
+	cursor: pointer;
+	color: rgba(255,255,255,.55);;
+	font-weight: 200;
+	border-radius: 3px;
+}
+
+.Btn.ACTIVE {
+	color: #fff;
+	font-weight: 600;
+	background-color: rgba(13,91,212,.8);
+}
+
+/* div class SearchBox > Body */
+.Body {
+	overflow-y: auto;
+}
+
+.Tab {
+	display: none;
+}
+
+.Tab.ACTIVE {
+	/* height: 100%; */
+	display: block;
+}
+
+.Footer {
+    position: absolute;
+    bottom: 0px;
+    height: 22px;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-top: 1px solid #dadfe8;
+}
+
+/* Tab1 */
+.BeforeSearch {
+	display: block;
+}
+
+.BeforeSearch .Title {
+	padding: 22px 22px 10px 22px;
+	font-size: 16x;
+}
+
+.BeforeSearch .Body {
+	padding: 0 11.5px 0 11.5px;
+}
+
+.BeforeSearch table {	
+	text-align: center;
+	width: 100%;	
+}
+
+.BeforeSearch table tr:last-child td {
+	font-size: 13px;
+}
+
+.BeforeSearch td {
+	padding: 5px;
+	width: 48px;
+}
+
+.NearBy {
+	width: 35px;
+	height: 35px;	
+	outline: none;
+	font-size: 18px;
+	border: 1px solid #dadfe8;
+	border-radius: 50%;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.NearBy img {
+	vertical-align: middle;
+}
+
+.NearBy:hover  {
+	background-color: #dadfe8;	
+}
+
+.NearBy.ACTIVE {
+	border: 1px solid #f55593;
+	background-color: #fe639f;
+	color: #fff;
+}
+
+.NearBy.ACTIVE img{
+	filter: invert(100%);
+}
+
+.NearBy.ACTIVE:hover {
+	border: 1px solid #f55593;
+	background-color: #fe639f;
+}
+
+/* Tab2 */
+.WaySearchBox {
+	margin: 25px 0 15px 0;
+}
+
+.WayPointBox {
+	text-align: center; 
+}
+
+.WayPointBox.Dest {
+    margin-bottom: 15px;
+}
+
+.WayPointWindow {
+	display: inline-block;
+	width: 280px;
+	height: 35px;
+	border: 1px solid #dadfe8;
+}
+
+.WayPointWindow.Origin {
+	border-radius: 5px 5px 0 0;
+}
+
+.WayPointWindow.Dest {
+	border-radius: 0 0 5px 5px;
+	border-top: 0;
+}
+
+.WayPointWindow.ACTIVE {
+	border: 1px solid #3396ff;
+}
+
+.Line {
+	width: 250px;
+	height: 25px;
+	float: left;
+	font-size: 15px;
+	padding: 5px 0 5px 12px;
+	border: 0;
+	outline: none;
+	border-radius: 4px;
+}
+
+.Line::placeholder {
+	color: #bfbfbf;
+}
+
+.Way {
+    text-align: center;
+}
+
+.WayBox {
+    display: inline-block;
+}
+
+.WayBtn {
+    color: #bfbfbf;
+    font-size: 22px;
+    border: 0px;
+    background-color: #fff;
+    width: 50px;
+    height: 35px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.WayBtn.ACTIVE {
+    color: #fff;
+    background-color: #3396ff;
+}
+
+/* Tab2 - result */
+.Path {
+	display: none;
+	border-color: #dadfe8;
+    border-style: solid;
+    border-width: 1px 0 1px 0;
+    cursor: pointer; 
+}
+
+.Path.Safe{
+	border-top: 0;
+}
+
+.Content {
+	padding: 20px;
+}
+
+.Content.ACTIVE{
+		
+}
+
+.Mode {
+	font-size: 14px;
+}
+
+.DetailBtn {
+	top: 20px;
+	right: 20px;
+	float: right;
+    font-size: 18px;
+    color: #6B6B6B;
+}
+
+.TD {
+	margin: 10px 0 0 0;
+}
+
+.Time {
+	font-size: 23px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.Distance {
+	display: inline-block;
+	font-size: 14px;
+    margin: 0 0 0 5px;
+}
+
+.Detail {
+	display: none;
+	padding: 0 20px 0 20px;
+}
+
+.Detail.ACTIVE {
+	display: block;
+}
+
+.Detail ul {
+	list-style: none;
+}
+
+.Detail li {
+	padding: 10px;
+	font-size: 14px;
+}
+
+/* 
+ * div id mapView 
+ */
+#mapView {
+	width: 100%;
+}
+
+/* div id mapView > SideBtn */
+.SideBtn {
+	position: absolute;
+	z-index: 2;
+	height: 100%;
+	display: table;
+}
+
+.BtnSearchBox {	
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.BtnSearchBox button{
+	color: #3396ff;
+	outline: none;
+	border: 0px;
+	background: #fff;
+	font-size: 15px;
+	width: 18px;
+	height: 50px;
+	border-radius: 0 4px 4px 0;
+	box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+
+/* div id mapView > Little_Header */
+.Little_Header {
+	width: auto;
+	height: 35px;
+	border: 1px solid #3396FF;
+	background: #ffffff;
+	position: absolute;
+	z-index: 2;
+	border-radius: 3px;
+	margin: 10px 10px 10px 10px;
+	display: none;
+	box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+}
+
+.Little_Title {
+	overflow: hidden;
+	height: inherit;
+	background: #3396FF;
+	display: table;
+	float: left; 
+}
+
+.Little_Title div {
+	display: table-cell;
+	vertical-align: middle;
+	color: #fff;
+}
+
+.Little_Menu {
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+.Little_Logo {
+	font-family: 'East Sea Dokdo', cursive;
+	padding: 0 10px 0 10px;
+	cursor: pointer;
+}
+
+.Little_SearchBar {
+	height: inherit;
+	display: table;
+	float: left; 
+}
+
+.Little_SearchBar div {
+	display: table-cell;
+	vertical-align: middle; 
+}
+
+.Little.SearchLine {
+	width: 280px;
+	height: auto;
+	padding: 6px 10px 5px 12px;
+	font-size: 14px;
+	border: 0px;
+	outline: none;
+	float: left;
+}
+
+.Little.SearchLine::placeholder {	
+	font-size: 14px;
+	color: #999;
+	padding: 3px 0 0 0;
+}
+
+.Little.SearchBtn {
+	float: right;
+	border: 0px;
+	background: #fff;
+	color: #999;
+	margin: 0 5px 0 10px;
+	font-size: 16px;
+	outline: none;
+	cursor: pointer;
+}
+
+.Little.SearchBtn:hover {
+	color: #5f5f5f;
+}
+
+/* map_div */
+#map_div{
+	position: relative;
+	z-index: 1;
+}
+
+/* font-weight */
+.Thick {
+	font-weight: bold;
+}
+
+/* focus placeholder */
+input:focus::-webkit-input-placeholder, 
+textarea:focus::-webkit-input-placeholder { 
+	/* WebKit browsers */ 
+	color:transparent; 
+}
